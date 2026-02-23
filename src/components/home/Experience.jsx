@@ -6,7 +6,7 @@ const Experience = () => {
       <div className="max-w-6xl mx-auto px-6">
 
         {/* Section Title */}
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-20">
+        <h2 className="text-4xl text-orange-600 md:text-5xl font-bold text-center mb-20">
           My <span className="text-orange-500">Experience</span>
         </h2>
 
