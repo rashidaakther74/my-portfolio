@@ -4,44 +4,47 @@ import { NavLink } from "react-router";
 
 const Home = () => {
   return (
-   <Container>
-     <section className="bg-[#0b0f1a] text-white pt-32 pb-5">
-      <div className="max-w-4xl md:max-w-4xl gap-0 md:gap-32 mx-auto px-6 grid md:grid-cols-2  items-center">
+    <Container>
+      <section className="bg-[#0b0f1a] text-white pt-32 pb-5">
+        <div className="max-w-full md:max-w-4xl mx-auto px-6 grid md:grid-cols-2 gap-6 md:gap-32 items-center">
 
-        {/* Left Content */}
-        <div className="w-full md:w-96 h-auto md:h-96">
-          <h2 className="text-orange-500 font-semibold mb-3">
-            Hello, I'm
-          </h2>
+          {/* Left Content */}
+          <div className="w-full md:w-96 h-auto md:h-96">
+            <h2 className="text-orange-500 font-semibold mb-3">
+              Hello, I'm
+            </h2>
 
-          <h1 className="text-4xl md:text-4xl font-bold leading-tight mb-6">
-            Rashida Akther <br />
-            Frontend Developer
-          </h1>
+            <h1 className="text-4xl md:text-4xl font-bold leading-tight mb-6">
+              Rashida Akther <br />
+              Frontend Developer
+            </h1>
 
-          <p className="text-gray-400 mb-8">
-            I create modern, responsive and user-friendly web interfaces
-            using React & Tailwind CSS.
-          </p>
+            <p className="text-gray-400 mb-8">
+              I create modern, responsive and user-friendly web interfaces
+              using React & Tailwind CSS.
+            </p>
 
-         <NavLink
+            <NavLink
               to="/skills" 
               className="bg-orange-500 hover:bg-orange-600 text-white px-5 py-2 rounded-full transition mt-2"
             >
-             View Skills
+              View Skills
             </NavLink>
-        </div>
-
-        {/* Right Image */}
-        <div className="flex justify-center">
-          <div className="w-80 h-80 md:w-80 md:h-80 mb-0 md:mb-44 bg-orange-400/20 rounded-full flex items-center justify-center overflow-hidden">
-            <img src="/assets/Rashida.png.jpeg" className="w-64 h-64 rounded-full object-cover"></img>
           </div>
-        </div>
 
-      </div>
-    </section>
-   </Container>
+          {/* Right Image */}
+          <div className="flex justify-center w-full">
+            <div className="w-64 md:w-80 h-64 md:h-80 mb-0 md:mb-44 bg-orange-400/20 rounded-full flex items-center justify-center overflow-hidden">
+              <img
+                src="/assets/Rashida.png.jpeg"
+                className="w-56 md:w-64 h-56 md:h-64 rounded-full object-cover"
+              />
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </Container>
   );
 };
 
