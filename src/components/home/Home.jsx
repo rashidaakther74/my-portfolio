@@ -9,7 +9,7 @@ const Home = () => {
       <div className="md:max-w-4xl gap-0 md:gap-32 mx-auto px-6 grid md:grid-cols-2  items-center">
 
         {/* Left Content */}
-        <div className="w-96 h-96">
+        <div className="w-full md:w-96 h-auto md:h-96">
           <h2 className="text-orange-500 font-semibold mb-3">
             Hello, I'm
           </h2>
