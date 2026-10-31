@@ -1,13 +1,13 @@
-import Container from "../global/Container";
+"use client";
+
+import Container from "@/components/global/Container";
 
 const AboutRead = () => {
   return (
     <Container>
       <section className="bg-[#0b0f1a] text-white py-24">
         <div className="max-w-6xl mx-auto px-6">
-
           <div className="bg-[#111827] p-12 rounded-3xl shadow-2xl space-y-10">
-
             {/* Title */}
             <div className="text-center">
               <h1 className="text-4xl font-bold mb-4">
@@ -90,7 +90,6 @@ const AboutRead = () => {
                 problem-solving and development skills.
               </p>
             </div>
-
           </div>
         </div>
       </section>

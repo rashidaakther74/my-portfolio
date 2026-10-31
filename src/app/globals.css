@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@plugin "daisyui";
+
+* {
+  scroll-behavior: smooth;
+}
+
+html {
+  scroll-padding-top: 80px;
+}
+
+body {
+  @apply bg-[#0b0f1a] text-white antialiased;
+}
+
+::selection {
+  @apply bg-orange-500 text-white;
+}
